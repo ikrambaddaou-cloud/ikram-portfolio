@@ -531,7 +531,7 @@ function App() {
     d'échanger ? N'hésitez pas à me contacter.
   </p>
 
-  <div className="contact-buttons">
+  <div className="buttons">
 
     <a
       href="mailto:ikram.beddaou@gmail.com"
@@ -542,53 +542,20 @@ function App() {
 
     <a
       href="/CV_Ikram_Beddaou.pdf"
-      className="btn secondary"
       target="_blank"
       rel="noopener noreferrer"
+      className="btn secondary"
     >
       📄 Voir mon CV
     </a>
 
     <a
       href="/CV_Ikram_Beddaou.pdf"
+      download="CV_Ikram_Beddaou.pdf"
       className="btn secondary"
-      download
     >
       ⬇️ Télécharger mon CV
     </a>
-
-  </div>
-
-  <div className="contact-info">
-
-    <div className="contact-item">
-      <strong>📧 Email</strong>
-      <a href="mailto:ikram.beddaou@gmail.com">
-        ikram.beddaou@gmail.com
-      </a>
-    </div>
-
-    <div className="contact-item">
-      <strong>💼 LinkedIn</strong>
-      <a
-        href="https://www.linkedin.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Mon profil LinkedIn
-      </a>
-    </div>
-
-    <div className="contact-item">
-      <strong>💻 GitHub</strong>
-      <a
-        href="https://github.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Mon GitHub
-      </a>
-    </div>
 
   </div>
 
